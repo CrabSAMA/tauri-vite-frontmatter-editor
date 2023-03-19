@@ -1,0 +1,23 @@
+.App {
+  height: calc(100vh - 16px);
+  width: calc(100vw - 16px);
+}
+
+@tailwind base;
+
+@layer base {
+  img,
+  svg,
+  video,
+  canvas,
+  audio,
+  iframe,
+  embed,
+  object {
+    display: block;
+    vertical-align: unset;
+  }
+}
+
+@tailwind components;
+@tailwind utilities;
